@@ -13,9 +13,12 @@ import javax.persistence.Id;
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
-public class Folder {
+public class Album {
     @Id
     @GeneratedValue (strategy = GenerationType.AUTO)
     private Integer id;
-    private String name;
+    private String albumName;
+    private String picture;
+    private String createBy;
+    private String createAt;
 }
