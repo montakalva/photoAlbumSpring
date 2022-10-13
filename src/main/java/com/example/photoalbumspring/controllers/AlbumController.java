@@ -55,5 +55,4 @@ public class AlbumController {
         model.addAttribute("actualAlbumList", actualAlbumList);
         return "album";
     }
-
 }
